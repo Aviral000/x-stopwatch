@@ -35,8 +35,8 @@ const App = () => {
 
   return (
     <div>
-      <h1>StopWatch</h1>
-      <p>Time: {formatTime(time)}</p>
+      <h1>Stopwatch</h1>
+      <p>{formatTime(time)}</p>
       <button onClick={isRunning ? handleStop : handleStart}>
         {isRunning ? 'Stop' : 'Start'}
       </button>
